@@ -1,5 +1,49 @@
-#main {
+html {
+    position: relative;
+    background-color: yellow;
+}
+body {
+    position: relative;
+    margin: 5px;
+    border: 5px solid violet;
+    padding: 5px;
+    height: 500px;
+    background-color: aquamarine;
+    top: 5px;
+    left: 5px;
+}
+#grandparent {
+    height: 150px;
     width: 200px;
-    height: 200px;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid greenyellow;
+    left: 5px;
+    top: 5px;
+    background-color: yellowgreen;
+}
+#parent {
+    height: 100px;
+    width: 120px;
+    left: 5px;
+    top: 5px;
+    background-color: green;
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid blue;
+    position: relative;
+    /*overflow-x: scroll;*/
+}
+#button {
+    width: 100px;
+    height: 50px;
     background-color: red;
+    margin: 5px;
+    border: 5px solid orange;
+    padding: 0;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    /*border-width: 5px;*/
 }
